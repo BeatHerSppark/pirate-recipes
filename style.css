@@ -1,0 +1,159 @@
+@import url(https://db.onlinewebfonts.com/c/82848488b73a87d72f2436c02b9ab608?family=ONE+PIECE);
+
+@font-face {
+  font-family: "ONE PIECE";
+  src: url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.eot");
+  src: url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.svg#ONE PIECE")
+      format("svg");
+}
+
+:root {
+  --orange500: #f97316;
+}
+
+body {
+  background: rgb(8, 47, 73);
+  background: linear-gradient(
+    180deg,
+    rgba(8, 47, 73, 1) 0%,
+    rgba(7, 89, 133, 1) 100%
+  );
+  font-family: "ONE PIECE";
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 5rem;
+}
+
+.title {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #fafafa;
+  text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px,
+    rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px,
+    rgb(0, 0, 0) -0.832294px 1.81859px 0px,
+    rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px,
+    rgb(0, 0, 0) -1.87291px -0.701566px 0px,
+    rgb(0, 0, 0) -1.30729px -1.5136px 0px,
+    rgb(0, 0, 0) -0.421592px -1.95506px 0px,
+    rgb(0, 0, 0) 0.567324px -1.91785px 0px,
+    rgb(0, 0, 0) 1.41734px -1.41108px 0px,
+    rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+
+header span {
+  color: #b91c1c;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro p {
+  width: 23rem;
+  margin-top: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.intro img {
+  margin-top: 1rem;
+  width: 23rem;
+  border: 13px solid;
+  border-image-source: url(./assets/ropegif.png);
+  border-image-slice: 21 24 21 24;
+  border-image-width: 20px 20px 20px 20px;
+  border-image-repeat: stretch stretch;
+}
+
+.recipes {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipes h2 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.recipe {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: rgba(126, 212, 252, 0.05);
+  margin-bottom: 1rem;
+}
+
+.recipe p {
+  margin-top: 0.5rem;
+  width: 23rem;
+}
+
+.coolimage {
+  position: relative;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  width: 24rem;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coolimage .cool_image {
+  width: 21rem;
+  height: 14rem;
+  object-fit: cover;
+}
+
+.coolimage .cool_border {
+  position: absolute;
+  z-index: 2;
+  top: 0.5rem;
+  left: 0.25rem;
+  height: 15rem;
+  width: 23rem;
+}
+
+footer {
+  background-color: rgb(8, 47, 73);
+  padding-top: 1rem;
+  padding-bottom: 0.25rem;
+  color: white;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer img {
+  width: 23rem;
+}
