@@ -1,32 +1,5 @@
-@import url(https://db.onlinewebfonts.com/c/82848488b73a87d72f2436c02b9ab608?family=ONE+PIECE);
-
-@font-face {
-  font-family: "ONE PIECE";
-  src: url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.eot");
-  src: url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.woff2")
-      format("woff2"),
-    url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.woff")
-      format("woff"),
-    url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.ttf")
-      format("truetype"),
-    url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.svg#ONE PIECE")
-      format("svg");
-}
-
 :root {
   --orange500: #f97316;
-}
-
-body {
-  background: rgb(8, 47, 73);
-  background: linear-gradient(
-    180deg,
-    rgba(8, 47, 73, 1) 0%,
-    rgba(7, 89, 133, 1) 100%
-  );
-  font-family: "ONE PIECE";
 }
 
 header {
