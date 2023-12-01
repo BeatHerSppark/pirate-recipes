@@ -60,6 +60,7 @@ header span {
 
 .recipes {
   margin-top: 1.5rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,7 +73,7 @@ header span {
 }
 
 .recipe {
-  width: 100%;
+  width: 26rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
